@@ -9,7 +9,7 @@ public class Conn {
     Statement s;
     public Conn(){
         try{
-            c= DriverManager.getConnection("jdbc:mysql:///atmsimulator", "root", "oct2001");
+            c= DriverManager.getConnection("jdbc:mysql:///atmsimulator", "root", "123456");
             s=c.createStatement();
         }
         catch(Exception e){
